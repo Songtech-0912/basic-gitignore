@@ -20,7 +20,7 @@ gitigen
 To download gitigen, you can either download it from the [releases](https://github.com/Songtech-0912/basic-gitignore) or build it (assuming you have the Rust build tools):
 
 ```bash
-cargo build --release && cp ./target/release/gitigen ~/bin # or whatever location your global execs are in
+cd gitigen && cargo build --release && cp ./target/release/gitigen ~/bin # or whatever location your global execs are in
 ```
 
 However, if you would like to manually copy and paste the file, no problem - you can find it [here](./gitignore-template)
