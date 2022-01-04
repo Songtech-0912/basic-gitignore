@@ -1,8 +1,6 @@
-# Basic `.gitignore` template
+# Basic gitignore template
 
 There are lots of good gitignore templates, but they're often just for one language. That's not great if you have a project that incorporates multiple languages and has a lot of custom files. It would be much better if you could start with a _generic_ gitignore and build on from there!
-
-## Overview
 
 This repository contains:
 
@@ -23,4 +21,4 @@ To download gitigen, you can either download it from the [releases](https://gith
 cd gitigen && cargo build --release && cp ./target/release/gitigen ~/bin # or whatever location your global execs are in
 ```
 
-However, if you would like to manually copy and paste the file, no problem - you can find it [here](./gitignore-template)
+However, if you would like to manually copy and paste the file, no problem - you can find it [here](./gitignore-template) as well.
