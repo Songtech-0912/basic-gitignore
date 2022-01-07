@@ -17,7 +17,7 @@ release*/
 "#;
 
 fn warn_gitignore_exists() -> Result<(), i32> {
-    println!("⛔😱 Sorry, but a `.gitignore` already exists in this folder!");
+    println!("\u{26D4} Sorry, but a `.gitignore` already exists in this folder!");
     Err(1)
 }
 
@@ -28,17 +28,17 @@ fn create_gitignore() -> Result<(), i32> {
             let w = write!(&mut f, "{}", TEMPLATE);
             match w {
                 Ok(_) => {
-                    println!("✨ 🍰 ✨ Created your gitignore!");
+                    println!("\u{2728} Created your gitignore!");
                     Ok(())
                 },
                 Err(_) => {
-                    println!("⛔😱 Oh no! `.gitignore` could not be created!");
+                    println!("\u{26D4} Oh no! `.gitignore` could not be created!");
                     Err(1)
                 }
             }
         },
         Err(_) => {
-            println!("⛔😱 Oh no! `.gitignore` could not be created!");
+            println!("\u{26D4} Oh no! `.gitignore` could not be created!");
             Err(1)
         }
     }
