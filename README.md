@@ -15,7 +15,7 @@ The easiest way to use this template is to use the provided `ginit` generator. T
 ginit
 ```
 
-To download ginit, you can either download it from the [releases](https://github.com/Songtech-0912/basic-gitignore) or build it (assuming you have the Rust build tools):
+To download ginit, you can either download it from the [releases](https://github.com/Songtech-0912/basic-gitignore/releases/latest) or build it (assuming you have the Rust build tools):
 
 ```bash
 cd ginit && cargo build --release && cp ./target/release/ginit ~/bin # or whatever location your global execs are in
