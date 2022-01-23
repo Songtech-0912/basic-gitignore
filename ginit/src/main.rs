@@ -14,6 +14,12 @@ release*/
 *.cache
 *.pdb
 *.tmp
+
+# Artifacts from development
+*.swp
+Session.vim
+__pycache__
+node_modules*/
 "#;
 
 fn warn_gitignore_exists() -> Result<(), i32> {
